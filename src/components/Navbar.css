@@ -1,6 +1,11 @@
-
+.navbar {
+    z-index: 2;
+}
+.bg-dark {
+    background-color: black !important;
+}
 .logo {
-    width: 5rem;
+    max-height: 1.5rem;
     margin-right: 1.25rem;
 }
 
@@ -10,7 +15,7 @@ nav a.nav-link {
 }
 
 .navbar-nav >li >a {
-    color: var(--primary-white) !important;
+    color: rgb(0,191,166) !important;
     margin-right: 0.75rem;
     margin-left: 0.75rem;
     transition: all 0.2s ease-in-out;
@@ -22,9 +27,9 @@ nav a.nav-link {
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-    border-bottom: 0.1875rem solid var(--primary-white);
+    border-bottom: 0.1875rem solid rgb(0,191,166);
 }
 
 .navbar-nav > li > a:hover {
-    border-bottom: 0.1875rem solid var(--primary-white);
+    border-bottom: 0.1875rem solid rgb(0,191,166);
 }

@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 
 body {
-  font-family: 'Yusei Magic', sans-serif;
+  font-family: 'Yusei Magic', sans-serif !important;
 }
 
 :root {
   --primary-white:#fff;
+  --primary-green:rgb(0,191,166);
+}
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
 }
