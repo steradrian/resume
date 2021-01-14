@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Particles from 'react-particles-js';
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
+import Experience from './components/Experience';
 
 
 function App() {
@@ -31,7 +32,8 @@ function App() {
       <Navbar />
       <Header />
       <AboutMe />
-      <Skills/>
+      <Skills />
+      <Experience />
     </div>
   );
 }
