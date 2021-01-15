@@ -7,7 +7,7 @@ import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Portfolio from './components/Portfolio';
-
+import Gallery from './components/Gallery';
 
 function App() {
   return (
@@ -35,7 +35,8 @@ function App() {
       <AboutMe />
       <Skills />
       <Experience />
-      <Portfolio/>
+      <Portfolio />
+      <Gallery />
     </div>
   );
 }
