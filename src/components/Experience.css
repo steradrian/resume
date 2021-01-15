@@ -86,3 +86,41 @@ padding: 0.7rem;
         width: 100%;
     }
 }
+
+.timeline-content > p {
+    font-size: 0.75rem;
+    color:gray;
+    text-align: left !important;
+}
+
+.statement {
+    color: white;
+    margin-top: 50px;   
+    padding: 40px;
+}
+
+.education {
+    padding: 40px;
+}
+
+.education > h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.row-education {
+    margin-top: 30px;
+}
+
+.education-photo-wrapper > img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+.education-text-wrapper { 
+    text-align: center;
+    color: white;   
+}
+

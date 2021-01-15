@@ -1,0 +1,72 @@
+.portfolio-wrapper {
+    background: white;
+    padding: 3rem 0;
+}
+
+.container > h1 {
+    color: var(--primary-green);
+}
+
+.portfolio-image {
+    width: 20rem;
+    height: 11rem;
+}
+
+.portfolio-image-box {
+    position: relative;
+    margin: 1rem;
+    max-width: 20rem;
+}
+
+.overflow {
+    position: absolute;
+    opacity: 0;
+    background: var(--primary-green);
+    width: 20rem;
+    height: 11rem;
+    top: 0; 
+    cursor: pointer;
+}
+
+.portfolio-image-box:hover .overflow{
+    opacity: 0.6;
+    transition: 0.4s ease-in-out;
+}
+
+.portfolio-icon {
+    position: absolute;
+    opacity: 0;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.portfolio-image-box:hover .portfolio-icon {
+    opacity: 1;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.portfolio-image-popupbox {
+    width: 45rem;
+    max-height: 25rem;
+    padding: 0 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.hyperlink {
+    cursor: pointer;
+    color:black;
+}
+
+.hyperlink:hover {
+    color: var(--primary-green);
+}
+
+@media(max-width: 768px) {
+    .portfolio-image-popupbox{
+        width: 100%;
+    }
+}
