@@ -1,0 +1,31 @@
+.photo-wrapper{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px !important;
+}
+.about-img {
+    width: 16rem;
+    border-radius: 70%;
+    padding: .3rem;
+    border: 3px solid var(--primary-green);
+}
+
+strong {
+    color: var(--primary-green);
+}
+
+.col-lg-6 > h1 {
+color: var(--primary-green);
+}
+
+hr {
+    color: var(--primary-green);
+}
+
+@media(max-width: 468px) {
+    .about-img{
+        width: 10rem;
+    }
+}

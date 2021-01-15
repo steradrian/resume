@@ -1,0 +1,62 @@
+.header-wrapper {
+  position: relative;
+  background: url(ProgressiveApp.svg), rgb(0, 0, 0);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 90vh;
+  color: white;
+}
+
+strong {
+  color: var(--primary-green);
+}
+
+@media screen and (max-width: 960px) {
+  .header-wrapper {
+    background-position: center !important;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .main-info > h1 {
+    font-size: 1.25rem !important;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .typed-text {
+    font-size: 1rem !important;
+  }
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 1.25rem;
+}
+
+.typed-text {
+  font-size: 2rem;
+  color: white;
+}
+
+.header-button {
+  text-transform: uppercase;
+  text-decoration: none !important;
+  border-radius: 1.25rem;
+  padding: 0.625rem 0.9375rem;
+  background-color: var(--primary-green);
+  color: black;
+  transition: 0.5s all ease-in-out;
+  margin-top: 0.625rem;
+  z-index: 2;
+}
+
+.header-button:hover {
+  transform: scale(1.15);
+  color: black;
+}

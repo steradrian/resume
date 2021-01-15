@@ -1,0 +1,35 @@
+.navbar {
+    z-index: 2;
+}
+.bg-dark {
+    background-color: black !important;
+}
+.logo {
+    max-height: 1.5rem;
+    margin-right: 1.25rem;
+}
+
+nav a.nav-link {
+    letter-spacing: 0.0375rem;
+    cursor: pointer;
+}
+
+.navbar-nav >li >a {
+    color: rgb(0,191,166) !important;
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar-brand {
+    max-width: 17.25rem;
+    padding: 0 !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+    border-bottom: 0.1875rem solid rgb(0,191,166);
+}
+
+.navbar-nav > li > a:hover {
+    border-bottom: 0.1875rem solid rgb(0,191,166);
+}
