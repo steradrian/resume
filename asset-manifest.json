@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.1ae2a152.chunk.css",
+    "main.js": "/resume/static/js/main.e4a6f896.chunk.js",
+    "main.js.map": "/resume/static/js/main.e4a6f896.chunk.js.map",
+    "runtime-main.js": "/resume/static/js/runtime-main.e1008565.js",
+    "runtime-main.js.map": "/resume/static/js/runtime-main.e1008565.js.map",
+    "static/css/2.ea94faa6.chunk.css": "/resume/static/css/2.ea94faa6.chunk.css",
+    "static/js/2.df1028a2.chunk.js": "/resume/static/js/2.df1028a2.chunk.js",
+    "static/js/2.df1028a2.chunk.js.map": "/resume/static/js/2.df1028a2.chunk.js.map",
+    "static/js/3.ead80168.chunk.js": "/resume/static/js/3.ead80168.chunk.js",
+    "static/js/3.ead80168.chunk.js.map": "/resume/static/js/3.ead80168.chunk.js.map",
+    "index.html": "/resume/index.html",
+    "static/css/2.ea94faa6.chunk.css.map": "/resume/static/css/2.ea94faa6.chunk.css.map",
+    "static/css/main.1ae2a152.chunk.css.map": "/resume/static/css/main.1ae2a152.chunk.css.map",
+    "static/js/2.df1028a2.chunk.js.LICENSE.txt": "/resume/static/js/2.df1028a2.chunk.js.LICENSE.txt",
+    "static/media/Avatar1.3ba1d4d5.svg": "/resume/static/media/Avatar1.3ba1d4d5.svg",
+    "static/media/Avatar2.9466058b.svg": "/resume/static/media/Avatar2.9466058b.svg",
+    "static/media/Avatar3.16a4548f.svg": "/resume/static/media/Avatar3.16a4548f.svg",
+    "static/media/BootstrapLogo.7acd19d3.png": "/resume/static/media/BootstrapLogo.7acd19d3.png",
+    "static/media/Deploy.6188c693.svg": "/resume/static/media/Deploy.6188c693.svg",
+    "static/media/Dynamic.ca84bf30.svg": "/resume/static/media/Dynamic.ca84bf30.svg",
+    "static/media/EducationSVG.69534888.svg": "/resume/static/media/EducationSVG.69534888.svg",
+    "static/media/Instagram.154ba02a.jpg": "/resume/static/media/Instagram.154ba02a.jpg",
+    "static/media/MyPicture.38dd0780.jpg": "/resume/static/media/MyPicture.38dd0780.jpg",
+    "static/media/PersonalSkill.8c1b7c62.svg": "/resume/static/media/PersonalSkill.8c1b7c62.svg",
+    "static/media/Header.css": "/resume/static/media/ProgressiveApp.889e9e1c.svg",
+    "static/media/ReactSVG.15e905a6.svg": "/resume/static/media/ReactSVG.15e905a6.svg",
+    "static/media/Spotify.a4e36d06.jpg": "/resume/static/media/Spotify.a4e36d06.jpg",
+    "static/media/Static.b582b68a.svg": "/resume/static/media/Static.b582b68a.svg",
+    "static/media/Todo.35c2e712.png": "/resume/static/media/Todo.35c2e712.png",
+    "static/media/Gallery.css": "/resume/static/media/gallery-bg.75612be7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e1008565.js",
+    "static/css/2.ea94faa6.chunk.css",
+    "static/js/2.df1028a2.chunk.js",
+    "static/css/main.1ae2a152.chunk.css",
+    "static/js/main.e4a6f896.chunk.js"
+  ]
+}
