@@ -4,7 +4,7 @@ import EducationSVG from './EducationSVG.svg';
 
 function Experience() {
     return (
-        <div className="experience">
+        <div className="experience" id="experience">
             <div className="d-flex justify-content-center">
                 <h1 className="experience-header">My experience</h1>
             </div>

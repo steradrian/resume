@@ -42,11 +42,19 @@ function Contact() {
   }
 
     return (
-        <div className="contacts">
+        <div className="contacts" id="contacts">
             <div className="text-center">
                 <h1>Contact me</h1>
                 <p> Plase fill out the the contact form below or use my contact info</p>
                 <span className="succes-message">{succesMessage}</span>
+            </div>
+
+            <div className="container profile-links">
+                <a href="https://www.linkedin.com/in/adrian-ster/" target="_blank"><AiFillLinkedin className="profile-icon"/> LinkedIn Profile</a>
+                <a href="https://github.com/steradrian?tab=repositories" target="_blank"><AiFillGithub className="profile-icon"/> Github Profile</a>
+                <a href="https://www.freecodecamp.org/adrianster" target="_blank"><FaFreeCodeCamp className="profile-icon"/> FreeCodeCamp Profile</a>
+                <p><AiFillPhone className="profile-icon"/> Phone number: +4 0742 264 423</p>
+                <p><SiGmail className="profile-icon"/> Email: steradrian5@gmail.com</p>
             </div>
             
             <div class="container">
@@ -164,13 +172,6 @@ function Contact() {
                 </form>
             </div>
 
-            <div className="container profile-links">
-                <a href="https://www.linkedin.com/in/adrian-ster/" target="_blank"><AiFillLinkedin className="profile-icon"/> LinkedIn Profile</a>
-                <a href="https://github.com/steradrian?tab=repositories" target="_blank"><AiFillGithub className="profile-icon"/> Github Profile</a>
-                <a href="https://www.freecodecamp.org/adrianster" target="_blank"><FaFreeCodeCamp className="profile-icon"/> FreeCodeCamp Profile</a>
-                <p><AiFillPhone className="profile-icon"/> Phone number: +4 0742 264 423</p>
-                <p><SiGmail className="profile-icon"/> Email: steradrian5@gmail.com</p>
-            </div>
         </div>
     )
 }

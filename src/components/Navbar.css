@@ -26,7 +26,7 @@ nav a.nav-link {
     padding: 0 !important;
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
     border-bottom: 0.1875rem solid rgb(0,191,166);
 }
 

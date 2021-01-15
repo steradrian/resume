@@ -8,7 +8,7 @@ import PersonalSkill from './PersonalSkill.svg';
 
 function Skills() {
     return (
-        <div className="skills">
+        <div className="skills" id="skills">
             <div className="h1 py-5">
                 <div className="container">
                     <h1 className="skills-header">My Skills</h1>
