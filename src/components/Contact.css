@@ -85,3 +85,25 @@
 .succes-message {
     color: var(--primary-green)
 }
+
+.profile-links {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.profile-links > a {
+    text-decoration: none;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+a:hover {
+    color: var(--primary-green) !important;
+}
+
+.profile-icon {
+    color: var(--primary-green) !important;
+    height: 2rem;
+    width: 2rem;
+}

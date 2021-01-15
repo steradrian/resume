@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import './Contact.css';
 import emailjs from 'emailjs-com';
 import { useForm } from 'react-hook-form';
+import { AiFillLinkedin, AiFillGithub, AiFillPhone } from 'react-icons/ai';
+import { FaFreeCodeCamp } from 'react-icons/fa';
+import { SiGmail } from 'react-icons/si';
 
 function Contact() {
 
@@ -159,6 +162,14 @@ function Contact() {
 
                     </div>
                 </form>
+            </div>
+
+            <div className="container profile-links">
+                <a href="https://www.linkedin.com/in/adrian-ster/" target="_blank"><AiFillLinkedin className="profile-icon"/> LinkedIn Profile</a>
+                <a href="https://github.com/steradrian?tab=repositories" target="_blank"><AiFillGithub className="profile-icon"/> Github Profile</a>
+                <a href="https://www.freecodecamp.org/adrianster" target="_blank"><FaFreeCodeCamp className="profile-icon"/> FreeCodeCamp Profile</a>
+                <p><AiFillPhone className="profile-icon"/> Phone number: +4 0742 264 423</p>
+                <p><SiGmail className="profile-icon"/> Email: steradrian5@gmail.com</p>
             </div>
         </div>
     )
