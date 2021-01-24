@@ -58,4 +58,5 @@ strong {
 
 .header-button:hover {
   transform: scale(1.15);
+  color: black !important;
 }
