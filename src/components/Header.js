@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import Typed from 'react-typed';
+import { Link } from 'react-scroll';
 
 function Header() {
     return (
@@ -15,7 +16,7 @@ function Header() {
                     loop
                 />
 
-                <a href="#" className="header-button">Click me!!!</a>
+                <Link smooth={true} to="contacts" className="header-button">Click me!!!</Link>
             </div>
             
         </div>
